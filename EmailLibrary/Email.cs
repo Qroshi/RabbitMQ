@@ -42,7 +42,7 @@ namespace EmailLibrary
             using (SmtpClient client = new SmtpClient("smtp.gmail.com")
                                             {
                                                 Port = 587,
-                                                Credentials = new NetworkCredential("szymon.j.jedrzejewski@gmail.com", "qnjvvvkwmhidjsol"),
+                                                Credentials = new NetworkCredential("user", "password"),
                                                 EnableSsl = true,
                                             })
             {
